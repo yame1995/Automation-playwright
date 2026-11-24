@@ -11,11 +11,10 @@ import {test} from '@playwright/test';
 
 test('locate', async({page})=>{
 await page.goto('https://demoqa.com/text-box');
-await page.waitForTimeout(2000)
+
 await page.locator('#userName').fill('yamuna');
 await page.locator('#userEmail').fill('yame@gmail.com');
 await page.locator('#currentAddress').fill('2048, prashanthnagar,Banglore');
-await page.locator('#permanentAddress').fill('2048, prashanthnagar,Banglore');
 await page.locator('#submit').click();
 
 })

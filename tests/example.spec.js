@@ -3,7 +3,7 @@ import { test } from '@playwright/test';
 
 test('Launch flipkart', async ({ page }) => {
 
-  await page.
+  // await page.
   // const title1 = await page.title();
   // console.log(await page.url());
   // console.log(title1);
